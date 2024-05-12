@@ -11,7 +11,7 @@ React + TypeScript + Vite
 - **Default Route:** `http://localhost:5173/`
 - **Chatbox Route:** `http://localhost:5173/chatbox/id`
 - **Profile Route:** `http://localhost:5173/profile/id`
-- 
+  
 1. Light Mod
    ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/ab5f5504-562c-4d01-a5cc-a9448108ec4c)
 
