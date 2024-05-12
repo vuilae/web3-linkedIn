@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Web3 LinkedIn Frontend
 
-Currently, two official plugins are available:
+This project is the frontend part of the Web3 LinkedIn integration, focusing on user interface and client-side interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+React + TypeScript + Vite
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Available Routes
+- **Default Route:** `http://localhost:5173/`
+- **Chatbox Route:** `http://localhost:5173/chatbox/id`
+- **Profile Route:** `http://localhost:5173/profile/id`
+- 
+1. Light Mod
+   ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/ab5f5504-562c-4d01-a5cc-a9448108ec4c)
 
-- Configure the top-level `parserOptions` property like this:
+2. Dark Mod
+   ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/d239c093-4e61-462f-aac9-54ca60e24ac5)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Friend Requests
+   
+ ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/f626ab1d-1a06-4582-9a41-232c885dfda1)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Messages
+   
+ ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/f3e01b80-6f08-462a-a2d8-fdc44d49394d)
+
+5. Post 
+![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/d390f2ea-2450-4624-8baf-40d8931e3a52)
+
+## Contributors
+Bakeyeva Darina, Makambet Orazaly, Musabekova Zhansaya
+Group: SE-2206
